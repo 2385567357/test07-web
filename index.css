@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: ProximaNova;
+}
+@font-face{
+    font-family: ProximaNova;
+    src: url(font154/proximanova.ttf)
+}
+.mybutton {
+    width: 6%;
+    height: 100%;
+    position: fixed;
+    background-color: #1d2531;
+    z-index: 2;
+}
+
+.top-button {
+    text-align: center;
+}
+.top-button img {
+    width: 70%;
+    margin-top: 15px;
+}
+.bottom-button {
+    position: absolute;
+    left: 20%;
+    bottom: 15px;
+}
+.bottom-button img {
+    width: 32%;
+}
+.bottom-button img:first-child {
+    margin-right: 10px;
+}
+.menu {
+    width: 24%;
+    height: 100%;
+    color: white;
+    position: fixed;
+    background-color:#222c3c;
+}
+.menu ul {
+    width: 60%;
+    margin-top: 18px;
+    margin-left: 33%;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #425371;
+}
+.menu ul:nth-child(3) {
+    border-bottom: none;
+}
+.menu ul:nth-of-type(1) h4 {
+    margin-top: 5px;
+}
+.menu ul h4 {
+    display: inline-block;
+    opacity: .3;
+}
+.menu ul:nth-child(1) .set{
+    margin-top: 5px;
+}
+.menu ul li {
+    opacity: .9;
+}
+.menu ul li p {
+    margin-top: 13px;
+    font-size: 14px;
+    display: inline-block;
+}
+.menu ul img {
+    float: right;
+}
+.menu ul:nth-child(2) li img {
+    padding-top: 10px;
+    float: none;
+    position: absolute;
+}
+.menu ul:nth-child(2) li p {
+    margin-left: 25px;
+}
+.menu ul:nth-child(1) li img{
+    padding-top: 5px;
+}
+.menu ul:nth-child(3) li img{
+    padding-top: 7px;
+}
+.goal {
+    width: 60%;
+    margin-top: 55px;
+    margin-left: 33%;
+    font-size: 0.5rem;
+}
+.goal p {
+    display: inline-block;
+}
+.goal p:nth-child(2) {
+    position: absolute;
+    right: 30px;
+}
+.goal span {
+    opacity: .7;
+}
+/* **********************蓝色部分结束******************* */
+nav {
+    width: 76%;
+    height: 70px;
+    position: fixed;
+    right: 0;
+    border-bottom: 1px solid #000;
+}
+nav .person {
+    display: inline-block;
+    position: absolute;
+    right: 85px;
+    top:15px;
+}
+nav .person p:nth-child(1) {
+    margin-bottom: 8px;
+    color: rgb(35,153,241);
+    font-weight: bolder;
+}
+nav .person p:nth-child(2) {
+    color: rgb(181,181,181);
+    font-size: 14px;
+    font-weight: bolder;
+}
+nav .dropdown {
+    position: absolute;
+    top: 28px;
+    right: 35px;
+}
+nav img:nth-child(2){
+    top: 8px;
+    right: 180px;
+    position: absolute;
+}
