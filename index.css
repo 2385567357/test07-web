@@ -224,10 +224,11 @@ nav img:nth-child(2){
 }
 /* **********************导航部分结束******************* */
 .friends {
-    width: 26.5%;
+    width: 26.54%;
     margin-top: 130px;
     margin-left: 24%;
     display: inline-block;
+    border-right: 1px solid rgb(229, 232, 238);
 }
 .friends ul li {
     width: 85%;
@@ -240,9 +241,13 @@ nav img:nth-child(2){
 .friends ul li:nth-of-type(1) p:nth-of-type(1) img {
     margin-right: 10px;
 }
+.friends ul li:nth-of-type(1) p:nth-of-type(1) {
+    color: rgb(35,153,241);
+}
+
 .friends ul li:nth-of-type(1) p:nth-of-type(3) img {
     top: 65px;
-    right: -30px;
+    right: -25px;
     position: absolute;
 }
 .friends ul li p:nth-child(2){
@@ -278,7 +283,103 @@ nav img:nth-child(2){
 .messag {
     width: 49%;
     margin-top: 130px;
-    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.messag ul {
+    margin-bottom: 40px;
+}
+.messag ul li {
+    width: 85%;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+.messag ul li p:nth-child(2){
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    color:rgb(53,64,82);
     display: inline-block;
     vertical-align: top;
 }
+.messag ul li p:nth-child(3){
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    color:rgb(53,64,82);
+    display: inline-block;
+    vertical-align: top;
+}
+.messag ul li p:nth-child(4){
+    width: 90%;
+    margin-left: 60px;
+    margin-top: -15px;
+    font-size: 14px;
+    line-height: 20px;
+    color:rgb(53,64,82);
+    display: inline-block;
+}
+.messag ul:nth-child(3) li:nth-child(2) img:nth-of-type(2) {
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.hr {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(229, 232, 238);
+    display: inline-block;
+    position: absolute;
+}
+.hr span:nth-child(1) {
+    width: 80px;
+    left: 50%;
+    top: -10px;
+    text-align: center;
+    position: absolute;
+    background-color: white;
+}
+.messages {
+    background-color: rgba(35,153,241,.4);
+}
+.messages>span{
+    width: 150px!important;
+    color: rgb(35,153,241);
+}
+.send {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
+  input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    width: 540px;
+    height: 48px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  .Base {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(206, 208, 218);
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+  }
+  .Base>span {
+      width: 50px;
+      height: 50px;
+      background-image: url(images/12_15-assets/Addicon.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      display: inline-block;
+  }
+  
+  
+  
+  
